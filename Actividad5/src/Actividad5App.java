@@ -7,6 +7,7 @@ public class Actividad5App {
 		
 		System.out.println("Introduce un numero");
 		double n1 = sc.nextDouble();
+		sc.close();
 		
 		if (n1%2 == 0) {
 			System.out.println("El numero es divisible entre 2");
