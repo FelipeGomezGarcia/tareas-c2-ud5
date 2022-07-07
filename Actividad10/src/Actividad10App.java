@@ -4,6 +4,8 @@ public class Actividad10App {
 	public static void main (String args[]) {
 		Scanner sc = new Scanner(System.in);
 		
+		final double IVA = 0.21;
+		
 		System.out.println("Introduce la cantidad de ventas: ");
 		int ventas = sc.nextInt();
 		
@@ -15,6 +17,6 @@ public class Actividad10App {
 		}
 		sc.close();
 		
-		System.out.println("Suma total: " + suma);
+		System.out.println("Suma total + IVA: " + (suma + suma*IVA));
 	}
 }
