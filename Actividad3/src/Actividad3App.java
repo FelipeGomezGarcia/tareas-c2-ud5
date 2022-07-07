@@ -5,6 +5,6 @@ public class Actividad3App {
 		
 		String name = JOptionPane.showInputDialog(null, "Introduce tu nombre");
 		
-		System.out.println("Bienvenido " + name);
+		JOptionPane.showMessageDialog(null, "Bienvenido " + name);
 	}
 }
