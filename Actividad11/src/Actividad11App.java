@@ -4,7 +4,6 @@ public class Actividad11App {
 	public static void main (String args[]) {
 		
 		String dia = JOptionPane.showInputDialog("Introduce un dia de la semana").toUpperCase();
-		boolean laboral = true;
 		
 		switch (dia) {
 		case "LUNES":
